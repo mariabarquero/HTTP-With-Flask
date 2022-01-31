@@ -2,7 +2,7 @@
 
 Http service get with flask
 
-I you want create a virtual enviroment you can use the next command
+If you want create a virtual enviroment you can use the next command
 
 ```
 virtualenv venv
@@ -27,18 +27,19 @@ docker run -it -p 4000:8080 -d flask-app
 ```
 
 To check if the container is running, write the next command:
-''' 
+
+```
 docker container ls 
-'''
+```
 
 Finally write this route in your browser with the port that you choose 
 
-'''
+```
 http://localhost:4000/
-'''
+```
 
 When finish stop the docker
 
-'''
+```
 docker stop [container ID]
-'''
+```
